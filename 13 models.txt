@@ -1,0 +1,83 @@
+Choosing a Model
+================
+
+1. Type of model
+Scenario:
+A bank wants to predict whether a loan applicant will default (yes/no).
+The dataset is medium-sized, tabular, and the bank must explain decisions to regulators.
+
+Questions (give one reason for your choice):
+What type of ML problem is this?
+Name one suitable model.
+
+2. Metric Selection 
+Scenario:
+A disease screening model is being evaluated.
+
+Questions (Explain your choice in one sentence):
+Why is accuracy alone not sufficient?
+Which metric is more important, precision or recall?
+
+3. Cross-Validation Understanding
+Scenario:
+You apply 5-fold cross-validation on a dataset of 1,000 samples.
+
+Questions:
+How many models are trained?
+How many times is each sample used for training?
+How many times is each sample used for testing?
+
+4. Linear vs Nonlinear Choice
+Scenario:
+A dataset shows a clear nonlinear pattern between inputs and output.
+
+Question:
+Name two models that can handle this well.
+
+upload as assignment #07
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answers: 
+1. 
+Expected answers:
+	a) Regression
+	b) Classification
+	c) Clustering
+	d) Regression
+	e) Classification
+
+2. 
+Expected answer:
+	Data is likely imbalanced
+	Recall
+	Missing a sick patient is more dangerous than a false alarm
+
+3. 
+Expected answer:
+	5
+	4 times
+	1 time
+
+4. 
+	Expected answer (any two):
+	Decision Tree
+	Random Forest
+	XGBoost
+	Neural Network

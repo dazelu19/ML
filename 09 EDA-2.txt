@@ -1,0 +1,27 @@
+https://nbviewer.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/linear_regression/multivariate_linear_regression_demo.ipynb
+
+Describe EDA steps made for above project
+1. Data Inspection
+- View first rows (head()), data types, dimensions.
+- Check column names and data types.
+2. Descriptive Statistics
+- Mean, median, standard deviation.
+- Distribution of numerical variables.
+3. Missing Value Analysis
+- Identify null or NaN values.
+4. Data Visualization
+- Histograms: View feature distributions.
+- Boxplots: Spot outliers.
+- Scatter plots: Examine relationships between features.
+5. Correlation Analysis
+- Correlation matrix (e.g., heatmap).
+- Detect multicollinearity among features.
+6. Categorical Feature Analysis
+- Frequency counts (e.g., value counts for categorical columns).
+- Bar charts for category distributions.
+7. Outlier Detection
+- Using IQR (Interquartile Range) or visualization tools.
+8. Target Variable Analysis
+- Compare how features affect the target (important in supervised ML).
+
+Upload as assignment 06
